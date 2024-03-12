@@ -4,5 +4,5 @@ import reverseString from './reverseString'
 const reversedString = reverseString('my-test')
 
 it('reverses a string', () => {
-    expect(reversedString).toBe('tset-ym')
+  expect(reversedString).toBe('tset-ym')
 })

@@ -4,8 +4,8 @@
  * @returns {string} - The reversed string.
  */
 const reverseString = (str) => {
-    return [...str].reverse().join('');
-  };
+  return [...str].reverse().join('')
+}
 
-  // Exporting the function as default so it can be imported in other modules
-  export default reverseString;
+// Exporting the function as default so it can be imported in other modules
+export default reverseString
